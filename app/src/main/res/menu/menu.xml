@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/take_interview"
+        android:title="Take Interview"
+        android:icon="@drawable/ic_assessment_black_24dp"/>
+    <item android:id="@+id/hr_questions"
+        android:title="HR questions"
+        android:icon="@drawable/ic_question_answer_black_24dp"/>
+
+</menu>

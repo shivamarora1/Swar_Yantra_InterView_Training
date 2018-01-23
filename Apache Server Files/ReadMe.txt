@@ -1,0 +1,1 @@
+Store these files in the htdocs of the Apache root folder.

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:gravity="left"
+        android:background="@drawable/main_title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interview History"
+        android:textStyle="bold"
+        android:textColor="@color/greyColor"
+        />
+    <TextView
+        android:id="@+id/empty_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have not given any interview yet..."
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        />
+    <ListView
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/session_list"
+        android:layout_weight="1"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:id="@+id/mBottomNavigation"
+        app:menu="@menu/menu"
+        android:layout_gravity="bottom"
+        android:background="#fff"
+        app:itemIconTint="@color/seaGreen"
+        app:itemTextColor="@color/seaGreen"
+        />
+
+
+</LinearLayout>
